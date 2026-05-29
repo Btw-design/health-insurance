@@ -1,0 +1,44 @@
+# Health Insurance Info - .gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node and dependencies (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive or local files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Image directory (contains placeholder/generated images)
+/img/*.jpg
+/img/*.png
+/img/*.gif
+/img/*.webp
+
+# Keep favicon if manually managed
+!/img/favicon.ico

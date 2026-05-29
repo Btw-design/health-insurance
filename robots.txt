@@ -1,0 +1,16 @@
+# robots.txt for Health Insurance Info
+# An information-only educational platform about health insurance in India
+
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas (if any)
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+
+# Sitemap location
+Sitemap: https://www.healthinsuranceinfo.in/sitemap.xml
+
+# Crawl delay (be polite to the server)
+Crawl-delay: 10
